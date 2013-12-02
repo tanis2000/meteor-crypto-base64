@@ -4,6 +4,7 @@ Package.describe({
 
 Package.on_use(function (api, where) {
   api.use('crypto-base', ['client', 'server']);
+  api.use('underscore', ['client', 'server']);
   api.add_files('enc-base64.js', ['client', 'server']);
 });
 
