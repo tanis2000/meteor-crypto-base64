@@ -6,6 +6,7 @@
   "version": "3.1.2.0",
   "git": "https://github.com/dandv/meteor-crypto-base64.git",
   "packages": {
-    "crypto-base": ""
+    "crypto-base": "",
+    "underscore": ""
   }
 }
