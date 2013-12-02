@@ -106,4 +106,9 @@ code.google.com/p/crypto-js/wiki/License
 
         _map: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='
     };
+    
+    var Base64UrlSafe = Base64.UrlSafe = Base64.extend({
+        // URL-safe alphabet
+        map: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=',
+    });
 }());
