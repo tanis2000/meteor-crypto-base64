@@ -109,6 +109,6 @@ code.google.com/p/crypto-js/wiki/License
     
     var Base64UrlSafe = Base64.UrlSafe = _.extend(Base64, {
         // URL-safe alphabet
-        map: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=',
+        _map: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_=',
     });
 }());
