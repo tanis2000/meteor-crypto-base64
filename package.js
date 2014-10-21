@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Base64 (en/de)coding for CryptoJS, standard secure crypto algorithms",
-  version: "3.1.2.0-1",
+  version: "3.1.2.0_1",
   git: "https://github.com/tanis2000/meteor-crypto-base64.git"
 });
 
